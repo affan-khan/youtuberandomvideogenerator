@@ -19,7 +19,7 @@ for ($i=0; $i < 11; $i++) {
 src="http://www.youtube.com/embed/<?php echo"$id";?>?autoplay=1">
 </iframe>
 
-<form action="youtube.php" action="post">
+<form action="https://still-savannah-89785.herokuapp.com/" action="post">
 <input type= "submit" name="Refresh" value="Next Video" width="20px"></input>
 </form>
 
