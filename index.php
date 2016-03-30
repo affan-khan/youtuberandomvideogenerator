@@ -11,10 +11,11 @@ $url = array("1","2","3","4","5","6","7","8","9","0","a","b","c","d","e","f","g"
 $id = "";
 for ($i=0; $i < 11; $i++) { 
 	$id .= $url[rand(0,count($url)-1)];
+	$id = "ScNNfyq3d_w";
 }
 ?>
 
-$id = "ScNNfyq3d_w";
+
 <iframe width="1500" height="315"
 src="http://www.youtube.com/embed/<?php echo"$id";?>?autoplay=1">
 </iframe>
